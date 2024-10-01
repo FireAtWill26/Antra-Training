@@ -24,6 +24,7 @@ where Color is not Null
 select 'Name: ' + [Name] + ' -- COLOR: ' + Color as Detail
 from Production.Product
 where [Name] like '%Crankarm%' or [Name] like 'Chainring%'
+order by ProductNumber
 
 select ProductID, [Name]
 from Production.Product
