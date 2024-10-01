@@ -21,7 +21,7 @@ select ProductID, [Name] + ' ' + Color as [Name and Color], ListPrice
 from Production.Product
 where Color is not Null
 
-select 'Name: ' + [Name] + ' -- COLOR: ' + Color as Detail
+select 'NAME: ' + [Name] + ' -- COLOR: ' + Color as Detail
 from Production.Product
 where [Name] like '%Crankarm%' or [Name] like 'Chainring%'
 order by ProductNumber
@@ -34,7 +34,7 @@ select ProductID, [Name], Color
 from Production.Product
 where Color in ('Blue', 'Black')
 
-select * from
+select ProductID, [Name], Color, ListPrice  from
 Production.Product
 where [Name] like 'S%'
 
