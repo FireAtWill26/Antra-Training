@@ -36,7 +36,7 @@ group by c.City
 order by c.City
 
 --Problem 4 Total quantity of products ordered
-select c.City, count(od.Quantity) as TotalQuantityOrdered
+select c.City, sum(od.Quantity) as TotalQuantityOrdered
 from Customers c join Orders o on c.CustomerID = o.CustomerID join [Order Details] od on o.OrderID = od.OrderID
 group by c.City
 order by c.City
