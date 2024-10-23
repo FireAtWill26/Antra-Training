@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0px;
+            background-color: gainsboro;
+        }
+        .header{
+            background-color: white;
+        }
+        .subheader{
+            background-color: blue;
+            height : 100px;
+        }
+        .btn{
+            float: right;
+            margin-top: 30px;
+            margin-right: 30px;
+            padding: 15px 20px 15px 20px;
+            background-color: orange;
+            color: white;
+            border: 0px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 15px;
+            font-weight: bold;
+        }
+        .body{
+            margin: 85px 120px 0px 120px;
+            height: 800px;
+        }
+        .news{
+            font-size: 35px;
+            margin-bottom: 70px;
+        }
+        .news_item{
+            align-content: center;
+        }
+        .third_col{
+            position: relative;
+            width: 25%;
+            float: left;
+            background-color: white;
+            height: 550px;
+            padding: 0px 2% 30px 2%;
+            margin: 0px 2% 0px 2%;
+        }
+        .block_header{
+            height: 160px;
+        }
+        .block_title{
+            font-size: 20px;
+            font-weight: bold;
+            padding: 30px 30px 0px 40px;
+        }
+        .block_date{
+            float: right;
+            font-size: 15px;
+            margin-top: 0px;
+            margin-right: 40px;
+        }
+        .block_author{
+            float: left;
+            font-size: 15px;
+            margin-top: 0px;
+            margin-left: 40px;
+        }
+
+        .block_image{
+            width: 100%;
+            align-content: center;
+            text-align: center;
+            padding: 0px 0px 50px 0px;
+        }
+
+        .block_summary{
+            font-size: 15px;
+            padding: 0px 30px 30px 40px;
+        }
+        .block_tag{
+            font-size: 15px;
+            padding: 0px 30px 30px 40px;
+            position: absolute;
+            bottom: 0px;
+            font-weight: bold;
+        }
+        .footer_items{            
+            margin-left: 80px;
+        }
+        .page_btn{
+            float: left;
+            background-color: blue;
+            color: white;
+            border: 0px;
+            cursor: pointer;
+            font-size: 15px;
+            font-weight: bold;
+            padding: 15px 20px 15px 20px;
+            margin: 0px 0px 0px 1px;
+        }
+        .page_btn:active{
+            background-color: orange;
+        }
+        .arrow {
+            border: solid white;
+            border-width: 0 3px 3px 0;
+            display: inline-block;
+            padding: 3px;
+            margin: 0px 1px 1px 0px;
+        }
+        .right {
+            transform: rotate(-45deg);
+            -webkit-transform: rotate(-45deg);
+        }
+    </style>
+</head>
+<body>
+    <section class = "container">
+        <div class = "header">
+            <a href = "#"><img src = "AntraLogo black.png" alt = "antra"></a>
+        <div class = "subheader">
+            <input type = "button" class = "btn" value = "Apply now">
+        </div>
+    </section>
+    <section class = "body">
+        <p class = "news">News</p>
+        <div class = "news_items">
+            <div class = "third_col">
+                <div class = "block_header">
+                    <p class = "block_title">Whatever the title is </p>
+                    <p class = "block_date">Whatever the date is</p>
+                    <br>
+                    <p class = "block_author">Published by whoever the author is</p>
+                    
+                </div>
+                <div class = "block_image">
+                    <img src = "Technology Services.png" alt = "news" alignn = "center">
+                </div>
+                <p class = "block_summary">Whatever the content is</p>
+                <div class = "block_tag">
+                    <p>Tag: Whatever the tags are</p>
+                </div>
+            </div>
+            <div class = "third_col">
+                <div class = "block_header">
+                    <p class = "block_title">Whatever the title is </p>
+                    <p class = "block_date">Whatever the date is</p>
+                    <br>
+                    <p class = "block_author">Published by whoever the author is</p>
+                    
+                </div>
+                <div class = "block_image">
+                    <img src = "Professional Services.png" alt = "news" alignn = "center">
+                </div>
+                <p class = "block_summary">Whatever the content is</p>
+                <div class = "block_tag">
+                    <p>Tag: Whatever the tags are</p>
+                </div>
+            </div>
+            <div class = "third_col">
+                <div class = "block_header">
+                    <p class = "block_title">Whatever the title is </p>
+                    <p class = "block_date">Whatever the date is</p>
+                    <br>
+                    <p class = "block_author">Published by whoever the author is</p>
+                    
+                </div>
+                <div class = "block_image">
+                    <img src = "Business Advisory Services.png" alt = "news" alignn = "center">
+                </div>
+                <p class = "block_summary">Whatever the content is</p>
+                <div class = "block_tag">
+                    <p>Tag: Whatever the tags are</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class = "footer">
+        <div class = "footer_items">
+            <ul class = "pages" type = "none">
+                <li class = "page"><button class = "page_btn">1</li>
+                <li class = "page"><button class = "page_btn">2</li>
+                <li class = "page"><button class = "page_btn">3</li>
+                <li class = "page"><button class = "page_btn">4</li>
+                <li class = "page"><button class = "page_btn">5</li>
+                <li class = "page"><button class = "page_btn"><i class = "arrow right"></i></li>
+            </ul>
+        </div>
+    </section>
+</body>
+</html>

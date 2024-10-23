@@ -1,0 +1,102 @@
+
+html{
+    border-left: 150px solid black;
+    border-right: 150px solid black;
+    background-color: white;
+    background-size: cover;
+}
+
+body{
+    margin: 0px;
+}
+
+.header{
+    background-color: green;
+    height : 250px;
+    position:relative
+}
+.header_info{
+    margin-bottom: 25px;
+    margin-right: 65px;
+    position:absolute;
+    bottom: 0px;
+    right: 0px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+.subheader{
+    float:left; 
+    width: 100%;
+    background-color: gainsboro;
+}
+.header_btn{
+    float:left;
+    border: 0px;
+    border-right: 1px solid white;
+    width: 210px;
+    height: 65px;
+    background-color: gainsboro;
+    cursor: pointer;
+}
+
+.header_btn:active{
+    background-color: gray;
+}
+
+.body_left{
+    float:left;
+    width: 55%;
+    margin: 50px 6% 50px 6%;    
+}
+
+.body_right{
+    float:left;
+    width: 24%;
+    margin: 50px 6% 50px 0px;
+}
+
+.body_text{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.body_left_upper{
+    width:auto;
+    margin-bottom: 30px;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    height: 500px;
+}
+
+.body_left_lower{
+    width:auto;
+    margin-bottom: 10px;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    height: 800px;
+
+}
+
+.body_right_upper{
+    background-color: gainsboro;
+    width:auto;
+    margin-bottom: 30px;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    height: 600px;
+}
+
+.body_right_lower{
+    width:auto;
+    margin-bottom: 10px;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    height: 600px;
+}
+
+.title{
+    color: green;
+    font-size: 30px;
+    font-weight: bold;
+}

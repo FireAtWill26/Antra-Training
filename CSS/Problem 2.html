@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .background-image{
+            background-image: url('https://antra.com/wp-content/uploads/2016/12/web-development2.jpg');
+            background-repeat:no-repeat;
+            height: 200px;
+            background-size: cover;
+            background-position: top;
+            width: 100%;
+            vertical-align: bottom;
+        }
+    .footer_items{
+        position: table;
+        z-index: 3;
+    }
+    .quarter_col{
+        width: 25%;
+        padding-right: 25px;
+        float: left;
+        vertical-align: top;
+        box-sizing: border-box;
+    }
+    .half_col{
+        width: 50%;
+        float: left;
+        vertical-align: top;
+        box-sizing: border-box;
+    }
+    section{
+        padding: 50px 7% 50px 7%;
+        position: relative;
+        overflow: hidden;
+        display: block;
+        box-sizing: border-box;
+        background-color: #2e3333;
+        color: rgb(233, 233, 233);
+    }
+    .menu{
+        margin-top: 0px;
+        text-align: left;
+        vertical-align: top;
+    }
+    body{
+        margin: 0px;
+    }
+    ul{
+        margin-top: 16px;
+        margin-left: 0px;
+        padding-left: 0px;
+        list-style-type: none;
+    }
+    li{
+        margin-bottom: 8px;
+        border-bottom: 1px solid rgb(102, 102, 102);
+        padding-bottom: 8px;
+    }
+    .last{
+        border-bottom: 0px;
+    }
+    .social_media{
+        display: block;
+        position: relative;
+        z-index: 1;
+        overflow: hidden;
+    }
+    .social{
+        float: right;
+        margin-right: 20px;
+        border: 0px;
+    }
+
+    .subfooter{
+        padding-top: 6px;
+        background-color: black;
+        padding-bottom: 12px;
+    }
+    .image{
+        max-width: 100%;
+        height: auto;
+        aspect-ratio: auto 366/189;
+    }
+    </style>
+</head>
+<body>
+    <div class = "background-image">
+        
+    </div>    
+</body>
+<footer>
+    <section class = "section">
+        <div class = "footer_items">
+            <div class = "quarter_col">
+                <div class = "contact_info">
+                    <b>Corporate Office:</b>
+                    <br>
+                    21000 Atlantic Blvd
+                    <br>
+                    #300
+                    <br>
+                    Sterling, VA 20166
+                    <br>
+                    Ph: 703 994 4545
+                    <br>
+                    email: info@antra.com
+                </div>
+            </div>
+            <div class = "quarter_col">
+                <div class = "menu">
+                    <h3 style="margin-top : 0px; margin-bottom: 0px;">Services</h3>
+                    <ul>
+                        <li>Techology Services</li>
+                        <li>Business Advisory Services</li>
+                        <li>Professional Services</li>
+                        <li>Blog</li>
+                        <li>About Us</li>
+                        <li>Contact Us</li>
+                        <li class = "last">UHC Transparency in Coverage</li>
+                    </ul>
+                </div>
+            </div>
+            <div class = "quarter_col">
+                <div class = "menu">
+                    <h3 style="margin-top : 0px; margin-bottom: 0px;">Resources</h3>
+                    <ul>
+                        <li>Case Studies</li>
+                        <li>Wight Papers</li>
+                        <li>Technology Resources</li>
+                        <li>Top Technology Trends 2017</li>
+                        <li>Agile Transformations</li>
+                        <li class = "last">Web & Mobile Application Development</li>
+                    </ul>
+                </div>
+            </div>
+            <div class = "quarter_col">
+                <div class = "menu">
+                    <h3 style="margin-top : 0px; margin-bottom: 0px;">Our Locations</h3>
+                    <p><img class="image" 
+                        src = "https://antra.com/wp-content/uploads/2022/04/world-map-img-foot-1-300x155.png" 
+                        alt="" width="366" height="189"> </p>
+                </div>
+            </div> 
+        </div>
+    </section>
+    <section class = "subfooter">
+        <div class = "footer_items">
+            <div class = "half_col">
+                <p>© 2024 Antra, Inc., All Rights Reserved. Privacy Policy</p>
+            </div>
+            <div class = "half_col">
+                <ul class = "social_media">
+                    <li class = "social">
+                        <a target="_blank" data-iconcolor = "#3b5998" 
+                        href = "https://www.linkedin.com/company/antra-inc.?trk=company_logo" 
+                        style = "background-color: rgba(0, 0, 0, 0)"><i class="fa fa-linkedin" style="color: #ffffff;"></i>
+                        </a>
+                    </li>
+                    <li class = "social">
+                        <a target="_blank" data-iconcolor = "#3b5998" href = "http://twitter.com/antrainc" 
+                        style = "background-color: rgba(0, 0, 0, 0)"><i class="fa fa-twitter" style="color: #ffffff;"></i>
+                        </a>
+                    </li>
+                    <li class = "social">
+                        <a target="_blank" data-iconcolor = "#3b5998" href = "https://www.facebook.com/Antra-Inc-160492562793379" 
+                        style = "background-color: rgba(0, 0, 0, 0)"><i class="fa fa-facebook" style="color: #ffffff;"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+    </section>
+</footer>
+</html>
